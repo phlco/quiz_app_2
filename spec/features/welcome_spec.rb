@@ -47,3 +47,15 @@ describe "The Quiz" do
   end
 
 end
+
+# More tests!
+
+# In order to incorporate some Ruby and Ajax...
+# Given that you've completed all the above
+# If you add another button called "Random Ajax Numbers"
+# And if you enter a number into the input numbers field
+# When you click on "Random Ajax Numbers"
+# Then you should make an ajax call to your server
+# And receive back a random array of numbers
+# And the length of that array should be equal to the number you entered in the input field
+# And those numbers should appear in the numbers input field
