@@ -24,11 +24,11 @@ describe "The Quiz" do
 
   it "has a text input where we can enter a string of numbers" do
     visit '/quiz'
-    within("#quiz") { fill_in 'numbers', with: "-1, 4, 2, 8, 1, 20" }
-    expect(page).to have_content "-1, 4, 2, 8, 1, 20"
+    within("#quiz") { expect(page).to have_css("input[name='numbers']") }
+    within("#quiz") { expect(page).to have_css('button') }
   end
 
-  describe "when i click the 'sort' button" do
+  describe "when i click the 'sort' button", js: true do
     before(:each) do
       visit '/quiz'
       within("#quiz") { fill_in 'numbers', with: "-1, 4, 2, 8, 1, 20" }
