@@ -1,3 +1,5 @@
+![image](https://travis-ci.org/phlco/js_quiz_2.png)
+![image](https://www.codeship.io/projects/493496c0-f644-0130-509e-3a47acb03cbe/status)
 This is a quiz in building a basic site in Rails with Capybara!
 
 ```
